@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 100vh;
+    background: rgb(225, 148, 161); 
+    
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto 25px;
+}
+
+#Spa,
+#submit {
+    width: 300px;
+    padding: 12px;
+    font-family: inherit;
+    font-size: 1rem;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+}
+
+#submit {
+    font-weight: bold;
+    background-color: rgb(86, 169, 207);
+    color: white;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: rgb(140, 175, 206);
+}
+
+#output {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#output article {
+    padding: 20px;
+    background-color: white;
+    color: #272020;
+    border: 2px solid rgb(153, 45, 45);
+    border-radius: 5px;
+}
+
+#output img {
+    display: block;
+    max-width: 100%;
+    height: 150px;
+    object-fit: contain;
+    margin: 0 auto 15px;
+}
+
+#output h2 {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+}
+
+#output p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #Spa,
+    #submit {
+        width: 100%;
+    }
+
+    #output {
+        grid-template-columns: 1fr;
+    }
+}
