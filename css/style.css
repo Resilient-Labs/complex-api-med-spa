@@ -1,0 +1,51 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+  margin-left:20px; 
+  font-family: arial,sans-serif;
+  background:#ebe7e1;
+  color:#2a2929;
+}
+section {
+  background:white;
+  padding: 25px;
+  border-radius: 12px;
+}
+h1{
+  color: green;
+}
+input {
+  padding:11px;
+  width:60%;
+  border:1px solid #d0c8c8;
+  border-radius:9px;
+  font-size:1rem;
+}
+#search-btn{
+  padding:10px 20px;
+}
+#container-product-btns, #container-ingredients-btns {
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+button{
+  padding:10px 15px;
+  border:none;
+  border-radius:9px;
+}
+#container-product-btns{
+  background:#e7e0d7;
+}
+#container-ingredient-btns button{
+  gap:10px;
+  background: #ed81ef;
+}
