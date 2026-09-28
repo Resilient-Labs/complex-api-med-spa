@@ -97,9 +97,7 @@ function showReports(listReportsFDA)
                     <section class="report-card">
                         <div><h5 class="title-description">Event Date</h5><h5 class="description">${report.event_date}</h5></div>
                         <div><h5 class="title-description">Reactions</h5><h5 class="description">${report.reactions} </h5></div>
-                    <label>What would you like to discuss today?
-					<input type="text" placeholder="Examples: I use this product daily and would like to know whether I should mention it before my facial." value=""  id="product-type">
-				</label>
+                 
                 </section>`
             })
         
