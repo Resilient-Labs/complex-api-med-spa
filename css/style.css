@@ -1,0 +1,169 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+/* .clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+} */
+
+/* .clear {
+	clear: both;
+} */
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+  min-height: 100vh;
+  margin: 0;
+  padding: 60px 20px;
+  background: #f6f3ee;
+  color: #2c302d;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/* MAIN */
+
+body > h1, 
+body > p,
+body > .search-bar,
+body > #results {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #26332c;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3rem;
+  letter-spacing: -1px;
+  font-weight: 500;
+}
+
+body > p {
+  margin-top: 0;
+  margin-bottom: 28px;
+  color: #686d69;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* SEARCH BAR */
+
+.search-bar {
+  display: flex;
+  gap: 8px;
+}
+
+/* SEARCH INPUT */
+
+input {
+  flex: 1;
+  min-height: 48px;
+  padding: 12px 16px;
+  border: 1px solid #d5d8d4;
+  border-radius: 10px;
+  background: #ffffff;
+  color:#2c302d;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+input:focus {
+  border-color: #82988a;
+  box-shadow: 0 0 0 3px rgba(130, 152, 138, 0.15);
+}
+
+input::placeholder {
+  color: #9b9f9c;
+}
+
+/* SEARCH BUTTON  */
+
+button {
+  min-height: 48px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #34483d;
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  /* transition: background 0.2s ease, transform 0.2s ease; */
+}
+
+button:hover{
+  background-color: #e1aadf;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+/* RESULTS */
+
+#results {
+  margin-top: 35px;
+  padding: 30px;
+  border: 1px solid #e2e2dc;
+  border-radius: 18px;
+  background: #ffffff;
+}
+
+#results:empty {
+  display: none;
+}
+
+#results h2 {
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: #26332c;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+
+#results h3 {
+  margin-top: 30px;
+  margin-bottom: 12px;
+  padding-top: 24px;
+  border-top: 1px solid #ecece7;
+  color: #e1aadf;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 1.35rem;
+
+}
+
+#results p {
+  margin: 12px 0;
+  color: #555b57;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+#results strong {
+  color: #2c302d;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
