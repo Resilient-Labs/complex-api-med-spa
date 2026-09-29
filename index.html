@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+		<title>MedSpa</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=wand_shine" />
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<h3></h3>
+			</nav>
+		</header>
+		<main>
+			<section class="container">
+				<span class="material-symbols-outlined icon">wand_shine</span>
+				<h1>Glow Check</h1>
+			</section>
+			<section class="container-box">
+				<span class="tag">PREPARE WITH CLARITY</span>
+				<h2>Bring your routine into the conversation.</h2>
+				<p>Search a cosmetic product, review its public information, and prepare focused questions for your medspa appointment.</p>
+				<h2>Find a product</h2>
+				<label> Choose a brand you already use in your daily skin care:
+					<input type="text" placeholder="Examples:Maybelline, colourpop, marienatie" value=""  id="brand">
+				</label>
+				<label>Product Type:
+					<input type="text" placeholder="Examples: foundation, lip liner, lipstick" value=""  id="product-type">
+				</label>
+				<label> Product Tag:
+					<input type="text" placeholder="Examples: vegan, cruelty free" value=""  id="product-tag">
+				</label>
+					<button type="button" name="button" id="search">SEARCH PRODUCTS</button>
+			</section>
+			
+			<section class="container-result-products">
+			</section>
+			<section class="container-result-FDA-information">
+				<!-- This is the space to show the product selected
+				<h5 class="brand-title">Selected product</h5>
+				<section class="title">
+					<img src="${product.image_link}" alt="product image">
+					<h5 class="brand-title">${listProducts[0].name.toUpperCase()}</h5>
+                </section>
+				<label>What would you like to discuss today?
+					<input type="text" placeholder="Examples: I use this product daily and would like to know whether I should mention it before my facial." value=""  id="product-type">
+				</label>
+				<button type="button" name="button" class="select-product">Generate Appointment</button>-->
+			</section>
+		</main>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
