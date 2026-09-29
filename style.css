@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f0;
+    text-align: center;
+    padding: 40px 20px;
+    color: #333;
+}
+
+h1 {
+    color: #47745c;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #47745c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #345640;
+}
+
+#results {
+    background-color: white;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#results:empty {
+    display: none;
+}
+
+.result-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.199);
+}
+
+.result-card h2 {
+    color: #47745c;
+    margin-bottom: 5px;
+}
+
+.date {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.uv-number {
+    font-size: 55px;
+    font-weight: bold;
+    color: #47745c;
+    margin: 10px 0;
+}
+
+.risk {
+    display: inline-block;
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.advice {
+    background-color: #edf5ef;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+
+.advice h3 {
+    color: #47745c;
+    margin-top: 0;
+}
+
+.advice p {
+    line-height: 1.6;
+}
