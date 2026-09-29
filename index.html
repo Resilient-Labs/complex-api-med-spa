@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Med Spa Skin Care Advisory</title>
+  <!-- empty icon so the console doesn't show a favicon 404 that looks like an API error -->
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Skin Care Advisory</h1>
+    <p>Enter a client's ZIP code to check today's UV and humidity where they live, plus aftercare and product tips to go with it.</p>
+
+    <!-- form so hitting Enter also works -->
+    <form id="zip-form">
+      <label for="zip-input">Client ZIP code</label>
+      <div class="row">
+        <input type="text" id="zip-input" placeholder="e.g. 19103" maxlength="5" inputmode="numeric">
+        <button type="submit" id="check-button">Check Conditions</button>
+      </div>
+    </form>
+
+    <p id="message"></p>
+
+    <!-- shows ZIP -> coordinates -> weather so it's clear the 2nd call uses the 1st call's data -->
+    <section id="flow" hidden>
+      <h2>How this lookup worked</h2>
+      <ol>
+        <li id="flow-zip"></li>
+        <li id="flow-weather"></li>
+      </ol>
+    </section>
+
+    <div id="results" hidden>
+      <section class="card">
+        <h2>Location <span class="source">Zippopotam.us</span></h2>
+        <div id="location-info"></div>
+      </section>
+
+      <section class="card">
+        <h2>Today's Conditions <span class="source">Open-Meteo</span></h2>
+        <div id="weather-info"></div>
+      </section>
+
+      <section class="card wide">
+        <h2>Client Recommendations</h2>
+        <div id="advice"></div>
+      </section>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
