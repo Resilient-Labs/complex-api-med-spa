@@ -1,22 +1,32 @@
-# 👩🏾‍⚕️ Project: Complex API 2 - Med Spa
+# Med Spa Ingredient Check
 
-### Goal: Build a simple front-end app that uses data returned from one api to make a request to another api to create something that would be beneficial to a Med Spa.
+A small app for checking skincare product ingredients.
+Enter a product barcode to look up its product details, review its listed ingredients, and see chemical information for ingredients on the app's watch list.
 
-### How to submit your code for review:
+## Demo
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![Allergen Check demo](image/med-spa.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Use
+
+1. Enter a product barcode in the Product Barcode field.
+2. Select **Check**.
+3. Review the product details and ingredient list. Ingredients matching the watch list are highlighted, with molecular formula and IUPAC name shown when available.
+
+The watch list currently includes retinol, retinal, retinyl palmitate, salicylic acid, glycolic acid, lactic acid, and benzoyl peroxide.
+
+## Data sources
+
+- [Open Beauty Facts](https://world.openbeautyfacts.org/) provides product names, brands, images, quantities, and ingredient text.
+- [PubChem](https://pubchem.ncbi.nlm.nih.gov/) provides molecular formulas and IUPAC names for flagged ingredients.
+
+## Project files
+
+- `index.html` - page structure and barcode form
+- `css/style.css` - layout and visual styles
+- `js/main.js` - API requests, ingredient matching, and result rendering
+- `image/` - fallback product image assets
+
+## Important note
+
+Ingredient highlighting is a basic text match against a fixed list. Product data may be incomplete, and a flagged ingredient is not necessarily an allergen or contraindication for a particular treatment. This app is for informational purposes only; it does not replace advice from a qualified clinician or an individual allergy assessment.

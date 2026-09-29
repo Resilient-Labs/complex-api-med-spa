@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allergen Check</title>
+    <link rel="stylesheet" href="css/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+ </head>
+ <body>
+    
+    <main> 
+    <section class="hero-wrapper">
+
+        <!-- left side -->
+         <section class="left-section">
+            <span>Pre Treatment Tools</span>
+            <h1>Is your skincare treatment ready </h1>
+            <p>Scan your product. We will flag ingredients to pause before your appointment.</p>
+         </section>
+
+         <!--Right Section -->
+         <section class="right-section">
+             <label for="search">Product Barcode</label>
+              <div class="input-wrapper">
+                 <input type="text" placeholder="3337875829007">
+                 <button type="button">Check</button>
+              </div>
+           
+         </section>
+    </section>
+
+    <!-- PLACE WHERE THE DATA GOES  -->
+     <section class="allergen-wrapper">
+
+        <!-- Photo section -->
+         <section class="photo-card">
+            <img src="" alt="prdouct-image">
+            <h2 id="product-name"></h2>
+            <span id="brandName"></span>    
+            <h3 id="barcode"></h3>
+
+            <section class="ingredient-wrapper">
+         <!-- SPAN CONTAINER   -->
+            </section>
+         </section>
+
+         <!-- ALLERGERN CONTAINS Section Wrapper -->
+          <section class="allergen-result">
+          <p class="score"></p>
+     </section>
+     </section>
+         </main>
+     <script src="js/main.js"></script>
+ </body>
+ </html>
