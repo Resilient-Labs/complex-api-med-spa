@@ -1,22 +1,18 @@
-# 👩🏾‍⚕️ Project: Complex API 2 - Med Spa
+README for Complex API #2
+Goal: Build a simple front-end app that uses data returned from one api to make a request to another api to create something that would be beneficial to a Med Spa.
 
-### Goal: Build a simple front-end app that uses data returned from one api to make a request to another api to create something that would be beneficial to a Med Spa.
+Idea: Create a page that will take users input of a beauty product they use and let you know if you should stop using it before your appointment based on flagged ingredients
 
-### How to submit your code for review:
+API's Used
+Beauty Facts API - https://world.openbeautyfacts.org/cgi/search.pl?search_terms=${product_query}&search_simple=1&json=1&page_size=1&fields=product_name,ingredients_text
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+- used to find ingredients in products
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Test Products -
+CeraVe Retinol Serum
+CeraVe SA Smoothing Cleanser
+CeraVe Moisturizing Cream
+
+Wikipedia API - https://en.wikipedia.org/api/rest_v1/page/summary/${found_ingredients[0]}
+
+- used to give quick facts about the flagged ingredient for the users
