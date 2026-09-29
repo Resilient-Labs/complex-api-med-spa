@@ -1,0 +1,41 @@
+body {
+    background-color: pink;
+    text-align: center;
+}
+
+.section {
+    background-color: white;
+}
+
+h1 {
+    color: pink;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: pink;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+#holidayName {
+    font-weight: bold;
+}
+
+#offer {
+    color: pink;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+}
