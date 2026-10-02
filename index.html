@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Med Spa App</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+
+        <h1>Beauty Product Ingredient Checker</h1> 
+        <p>Search beauty products and click the ingredients below to learn more.</p>
+
+    </main>
+
+    <section class="search-box"> 
+        <input id = "search-input" type="text" placeholder="Enter a beauty product (ex. CeraVae)"" value="">
+
+        <button id="search-button">Search</button>
+    </section>
+
+    <div id="message"></div>
+
+    <section id= "product-section" class="">
+        <div class="products">
+            <img id="product-image"  alt="Product">
+
+            <div class="product-info"> 
+                <h2 id="product-name"></h2> 
+                <p id="product-brand"></p>
+            </div> 
+
+        </div> 
+        <section class="ingredients-section">
+            <h2>Ingredients</h2>
+            <ul id="ingredientsList" class="ingredients-list"></ul>
+
+            <div id="ingredient-info"></div>
+            
+        </section> 
+    </section>
+    
+        <script src="js/main.js"></script>
+
+</body>
+</html>
