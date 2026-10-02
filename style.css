@@ -1,0 +1,30 @@
+* {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+h1 {
+    color: rgb(0, 21, 255);
+}
+
+p,
+span,
+h2 {
+    color: white;
+}
+
+.warnings {
+    color: red;
+}
+
+input,
+button {
+    width: 200px;
+
+    font-weight: 900;
+    ;
+}
