@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after{
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear{
+	clear: both;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    background: rgb rgb(225, 184, 191);
+    color: rgb(154, 139, 139);
+    text-align: center; 
+}
+
+p{
+    font-weight: 400; 
+    font-size: 1.1rem;
+}
+span{
+    display: block;
+    font-weight: 700;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    margin-left:-5rem;
+}
+#recommendations{
+    width:60%;
+    margin-left:10rem;
+}
+.listOfServices {
+    width:60%;
+    padding:0;
+    margin-left: 10rem;
+    list-style: none;
+    
+
+}
+img{
+    width: 20%;
+    height: 10rem;
+}
+#title{
+    margin-left:-2rem;
+}
