@@ -1,22 +1,37 @@
-# 👩🏾‍⚕️ Project: Complex API 2 - Med Spa
+# 👩🏾‍⚕️ Aurora MED SPA
 
-### Goal: Build a simple front-end app that uses data returned from one api to make a request to another api to create something that would be beneficial to a Med Spa.
+## Project Description
 
-### How to submit your code for review:
+Aurora MED SPA is a web application that helps users check current UV conditions for their ZIP code before scheduling a skin treatment. It uses the Geocod.io API to convert a ZIP code into geographic coordinates, then sends those coordinates to the CurrentUVIndex API to retrieve current UV data.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+The application displays the current UV Index, a color-coded visual indicator, and a recommendation based on the returned value. 
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Tech Stack
+
+- **HTML** 
+- **CSS**
+- **JavaScript**
+
+## How to Run or View It
+
+1. Clone or download the repository.
+2. Open `index.html` in a browser or serve the project using a local development server.
+3. Enter a ZIP code in the search field.
+4. Click **Search** to retrieve geographic coordinates and current UV Index data.
+5. Review the displayed UV Index, visual indicator, and recommendation.
+
+The application requires an internet connection to access its external APIs. API availability and credential requirements may affect the results.
+
+## Screenshots and Demo
+
+### Application Interface
+
+![Aurora MED SPA application interface](images/aurora-med-spa.png)
+![Aurora MED SPA application interface](images/aurora-med-spa2.png)
+
+
+The interface includes a ZIP-code search field, a treatment recommendation, the current UV Index, and a color-coded risk indicator.
+
+
+
+

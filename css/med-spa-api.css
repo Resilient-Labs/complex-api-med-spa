@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: "Cantarell", sans-serif;
+    background-color: #424B54;
+}
+    
+#container{
+    border: 5px dotted #EBCFB2;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 100%;
+    background-color: #A1867F;
+
+}
+
+#photo{
+    border: 5px dotted #424B54;
+    background-image: url("../images/med-spa-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+}
+
+#inputOutput{
+    border-left: 5em solid #EBCFB2;
+}
+
+h1{
+    color: #EBCFB2;
+    font-weight: bolder;
+    /* font-family: "Meie Script" */
+}
