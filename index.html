@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>MedSpa</title>
+</head>
+<body>
+    
+   
+
+    <main>
+
+         <h1>Desiree's MedSpa </h1>
+    <p> Learn more about your skin condition and what you can do to potentially help treat it.</p> 
+
+        <!--Top Part of the app-->
+        <form id="skinConcernsForm">
+            <label for="inputForUserConcerns">Input the skin condition you would like to learn about.
+            </label> 
+
+            <!--Where the user searches for their condition-->
+            <input id="inputForUserConcerns" name="concern" type="text" placeholder="Example: acne">
+            <button type="submit">Submit</button> 
+        </form>
+            <!--Where the status is supposed to display-->
+        <section id="status-message"></section> 
+
+
+            <!--THis part is for the results-->
+        <section id="results" hidden>
+            <h2>Results</h2> 
+
+        <div id="resultsForCondition">
+            <h3>Best Matching Condition</h3>
+            <p id="conditionNameResult"></p>
+            <p id="icd10Result"></p>
+        </div> 
+
+        <div id="resultsForService">
+            <h3>Next Steps for You at the MedSpa</h3> 
+            <p id="serviceRecommendationResult"></p>
+        </div> 
+
+        <div id="resultsForFDA">
+            <h3>FDA Information</h3>
+            <p id="fdaBrandResult"></p> 
+            <p id="fdaPurposeResult"></p>
+            <p id="fdaWarningsResult"></p>
+        </div>
+    </section>
+</main> 
+
+    <script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>
