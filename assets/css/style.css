@@ -1,0 +1,76 @@
+body {
+  margin:0;
+  min-height:100vh;
+  display:flex;
+  justify-content:center; /* Centers content horizontally */
+  align-items:center;     /* Centers content vertically */
+  background: url('../images/med.jpg') center / cover no-repeat;
+
+}
+
+.container{
+    font-family: "Comic Sans MS", sans-serif;
+    place-items:center;
+    border:3px solid rgb(144, 181, 64);
+    border-radius:10px;
+    width:800px;
+    height:auto;
+    background: rgb(117, 179, 117);
+}
+
+.ask{
+    color:rgb(27, 21, 136);
+    font-size:20px;
+}
+
+input{
+    text-align:center;
+    border-radius:8px;
+}
+
+h1{
+    color:rgb(196, 238, 238)
+}
+
+h2{
+    color:white;
+    margin-top:30px;
+}
+
+h3{
+    color:rgb(148, 75, 75);
+}
+
+.uvTip, .humidityTip{
+    font-size:20px;
+    text-align:center;
+    padding: 0 25px 0 25px;
+    line-height:36px;
+    text-decoration:underline;
+}
+
+.inline{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:10px;
+    gap:80px;
+}
+
+input::placeholder{
+    text-align:center;
+    font-style:italic;
+}
+
+button{
+    width:100px;
+    height:31px;
+    background-color:rgb(240, 213, 164);
+    border-radius:8px;
+    cursor:pointer;
+}
+
+input{
+    height:25px;
+    width:300px;
+}
