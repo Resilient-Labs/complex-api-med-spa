@@ -1,0 +1,51 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  background: rgb(8, 89, 166);
+  background-image: url('../img/images.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  background: rgb(164, 115, 9);
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 50%;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+input {
+  text-align: center;
+}
+
+input::placeholder {
+  color: #e54747;
+  font-style: italic;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

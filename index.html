@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This is where your description goes">
+	<meta name="keywords" content="one, two, three">
+
+	<title>Med Spa Currency Converter</title>
+
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<section>
+		<h1>Med Spa Currency Converter</h1>
+		<p>Convert an international client's payment into U.S. dollars.</p>
+		<label for="amountReceived">Amount received:</label>
+		<input id="amountReceived" type="number" name="Amount Received" placeholder="Amount Received">
+		<label for="country">Where is the client from? Case Sensitive, capitalize first letter of Country</label>
+		<input id="country" type="text" name="Country" placeholder="Country">
+		<button id="submit" type="button" name="Submit">Convert to USD</button>
+
+		<h2>Conversion</h2>
+		<p>Payment received:</p>
+		<p id="currencyCode"></p>
+		<p id="currencyAmountReceived"></p>
+		<p id="displayAmountReceived"></p>
+		<p>In USD this is:</p>
+		<p id="displayUSD"></p>
+	</section>
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
