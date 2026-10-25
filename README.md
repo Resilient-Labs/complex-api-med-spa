@@ -1,22 +1,28 @@
-# 👩🏾‍⚕️ Project: Complex API 2 - Med Spa
+# Med Spa
+Goal: Build a simple front-end app that uses data returned
+from one api to make a request to another api to create 
+something that would be beneficial to a Med Spa.
 
-### Goal: Build a simple front-end app that uses data returned from one api to make a request to another api to create something that would be beneficial to a Med Spa.
+[Live](https://kinzarehman.github.io/complex-api-med-spa/)
 
-### How to submit your code for review:
+## View
+<p align="center">
+  <img src="images/landing.png" alt="Fruits" width = "80%" height="400">
+  <img src="images/submit.png" alt="Loading" width = "80%" height="400">
+</p>
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## Limits 
+-Key word sensitive. Data limitations
+## Built With
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+- HTML5
+- CSS3
+- Vanilla JavaScript
+
+## Local Preview
+
+Open `index.html` using the VS Code Live Server extension or open the file directly in your browser.
+
+## Before Publishing
+
+This is an opensource APi, test and read the documentation.
