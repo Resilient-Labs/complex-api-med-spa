@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/normalize.css"></link>
+    <link rel="stylesheet" href="assets/medspa.css"></link>
+    <title>Meditation Med Spa</title>
+</head>
+<body>
+    <section class="parentSection">
+        <section class="sectionOne">
+            <h1>Welcome to Meditation Med Spa</h1>
+            <p>If you're planning on getting a chemical peel please check the UV Index below</p>
+            <p>If the UV Index is a 6 or above we highly recommend <strong>not</strong> getting a chemical peel</p>
+            <h2>Enter your city and state</h2>
+            <input type="text" class="city" placeholder="Enter your City"><input type="text" class="state" placeholder="Enter your State Code"></input></input><button>Submit</button>
+        </section>
+        <section class="sectionTwo">
+            <h3>The UV Index is:</h3><span class="uvIndex"></span>
+            <ul>
+                <ol class="safe">0 to 2 (Low): Minimal risk of harm from sun exposure</ol>
+                <ol class="moderate">3 to 5 (Moderate): Moderate risk of harm, unprotected skin can start to damage in 30 to 45 minutes.</ol>
+                <ol class="dangerOne">6 to 7 (High): High risk of skin and eye damage, skin can burn in 15 to 25 minutes without protection.</ol>
+                <ol class="dangerTwo">8 to 10 (Very High): Very high risk, skin burns fast. Unprotected skin can burn in 10 to 15 minutes.</ol>
+                <ol class="dangerThree">11+ (Extreme): Extreme danger! Skin damage can happen in under 10 minutes, avoid long sun-exposure and cover up!</ol>
+            </ul>
+        </section>
+    </section>
+    <script src="assets/medspa.js"></script>
+</body>
+</html>

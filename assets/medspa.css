@@ -1,0 +1,89 @@
+body{
+    background-image: url(/images/medSpa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 4vh 15%;
+    font-family: 'Libre Franklin', 'Helvetica', sans-serif;
+    min-height: 95vh;
+}
+.parentSection{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.sectionOne, .sectionTwo{
+    border: 5px solid #58585888;
+    border-radius: 15px;
+    padding: 2%;
+}
+.sectionOne{
+    margin-bottom: 1.5rem;
+    background: #686868a2;
+}
+.sectionTwo{
+    margin-top: 1rem;
+    background: #686868c5;
+}
+input{
+    background: #aaaaaa91;
+    border: 1px solid;
+    border-radius: 10px;
+    text-indent: 1rem;
+    color: #000;
+}
+input::placeholder{
+    color: #2c2c2c;
+}
+button{
+    border-radius: 5px;
+}
+h3{
+    display: inline-block;
+    margin: 1rem;
+    font-size: 1.6rem;
+}
+p{
+    font-size: 1.4rem;
+}
+.uvIndex{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.safe{
+    color: #139e13;
+}
+.moderate{
+    color: #e7c118;
+}
+.dangerOne{
+    color:#e76b18;
+}
+.dangerTwo{
+    color:#e74118;
+}
+.dangerThree{
+    color: #ad0e0e;
+}
+ol {
+    font-size: 1.6rem;
+    text-shadow:
+    -.5px .5px 0 #000,
+    .5px -.5px 0 #000,
+    -.5px .5px 0 #000,
+    .5px -.5px 0 #000;
+}
+@media (max-width: 630px){
+    h1{
+        font-size: 1.8rem;
+    }
+    h2, h2 {
+        font-size: 1.4rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    ol{
+        font-size: 1.2rem;
+    }
+}
