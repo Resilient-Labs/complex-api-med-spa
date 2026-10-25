@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0%;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  background: url(book2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+  
+}
+
+h1{
+ display: flex;
+ justify-content: center;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+}
+h3{
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  border-bottom: 1px solid black;
+  margin-top: 3%;
+  text-align: center;
+}
+
+select{
+  width:5%;
+  margin-left: 47%;
+}
+
+@media screen and (max-width:768px) {
+  body{
+    min-height:100vh;
+    background-size: cover;
+    padding:10px
+  }
+  h1{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
