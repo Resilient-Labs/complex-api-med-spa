@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+     <h1>UV checker </h1>
+    <p>Check UV conditions and get med spa aftercare guidance.</p>
+
+    <section class="checker">
+
+        <input
+            type="text"
+            id="cityInput"
+            placeholder="Enter your city"
+        >
+
+        <select id="treatment">
+            <option value="">Choose a treatment</option>
+            <option value="chemical-peel">Chemical Peel</option>
+            <option value="microneedling">Microneedling</option>
+            <option value="laser">Laser Treatment</option>
+            <option value="facial">Facial</option>
+        </select>
+        <button id="check">Check Aftercare</button>
+        <div class="results">
+            <h2 id="cityName"></h2>
+            <p id="treatmentTitle"></p>
+            <p id="uv"></p>
+            <p id="risk"></p>
+            <p id="advice"></p>
+
+        </div>
+    </section>
+
+    
+</body>
+<script src="js/main.js"></script>
+</html>

@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Libre+Franklin:wght@400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: #eee9df;
+    color: #27231f;
+    font-family: "Libre Franklin", sans-serif;
+    padding: 56px 20px 80px;
+}
+
+body > h1 {
+    max-width: 760px;
+    margin: 0 auto;
+    font-family: "Archivo", sans-serif;
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    color: #3f2938;
+}
+
+body > p {
+    max-width: 760px;
+    margin: 12px auto 36px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #68605a;
+}
+
+.checker {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    border-top: 1px solid #91877d;
+    padding-top: 28px;
+}
+
+#cityInput,
+#treatment {
+    width: 100%;
+    min-height: 52px;
+    margin-bottom: 12px;
+    border: 1px solid #8d8278;
+    background: #f8f4ec;
+    color: #27231f;
+    padding: 0 14px;
+    font: inherit;
+    font-size: 0.95rem;
+}
+
+#cityInput:focus,
+#treatment:focus {
+    outline: 2px solid #7a556b;
+    outline-offset: 2px;
+}
+
+#check {
+    width: 100%;
+    min-height: 52px;
+    border: 1px solid #3f2938;
+    background: #3f2938;
+    color: #f8f4ec;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+#check:hover {
+    background: #eee9df;
+    color: #3f2938;
+}
+
+.results {
+    margin-top: 32px;
+    border: 1px solid #8d8278;
+    background: #f8f4ec;
+}
+
+#cityName {
+    padding: 24px 24px 10px;
+    font-family: "Archivo", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #3f2938;
+}
+
+#treatmentTitle {
+    padding: 0 24px 20px;
+    color: #7a556b;
+    font-weight: 600;
+    border-bottom: 1px solid #b6ada4;
+}
+
+#uv,
+#risk,
+#advice {
+    padding: 18px 24px;
+    line-height: 1.6;
+}
+
+#uv,
+#risk {
+    border-bottom: 1px solid #c7beb5;
+}
+
+#uv::before,
+#risk::before,
+#advice::before {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #776d65;
+}
+
+#uv::before {
+    content: "UV Index";
+}
+
+#risk::before {
+    content: "Exposure Level";
+}
+
+#advice::before {
+    content: "Aftercare Guidance";
+}
+
+#risk {
+    background: #e4ddd2;
+}
+
+#advice {
+    background: #d8cec0;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 36px 16px 56px;
+    }
+
+    body > h1 {
+        font-size: 2.7rem;
+    }
+
+    #cityName {
+        font-size: 1.6rem;
+    }
+
+    #uv,
+    #risk,
+    #advice,
+    #cityName,
+    #treatmentTitle {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+}
