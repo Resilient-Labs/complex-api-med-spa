@@ -1,87 +1,70 @@
 # Beauty Product Ingredient Information
 
-A JavaScript project that combines beauty product information with chemical ingredient data.
+Search beauty products and combine ingredient data from Open Beauty Facts with chemical information from ChEBI.
 
-## About
+## Overview
 
-This project allows a user to search for a beauty product using the Open Beauty Facts API.
+Beauty Product Ingredient Information lets a user search for a beauty product by name.
 
-The program retrieves product information and its ingredient list.
-
-Each available ingredient is then searched using the ChEBI API to retrieve additional chemical information.
+The application retrieves product and ingredient data from Open Beauty Facts. For each available ingredient, it then queries ChEBI to retrieve additional chemical information and displays the combined results in the browser.
 
 ## Features
 
 - Search for a beauty product by name
 - Retrieve product and brand information
 - Display the product ingredient list
-- Search individual ingredients
-- Retrieve chemical names
-- Retrieve ChEBI identifiers
-- Display available chemical descriptions
+- Use returned ingredients to make additional API requests
+- Retrieve available chemical names, ChEBI identifiers, and descriptions
 - Handle products without ingredient information
-
-## Topics Practiced
-
-### APIs
-
-- Using multiple APIs
-- Using `fetch()`
-- Building API query URLs
-- Reading JSON responses
-- Making additional requests based on earlier API data
-
-### Arrays
-
-- Working with ingredient arrays
-- Using `forEach()`
-- Processing multiple ingredient records
-
-### Objects
-
-- Accessing nested object properties
-- Reading API result objects
-- Working with returned chemical information
-
-### Strings
-
-- Formatting search terms
-- Replacing spaces
-- Building dynamic query URLs
-
-### Conditionals
-
-- Checking for missing products
-- Checking for missing ingredient information
-- Checking for missing chemical search results
-
-### DOM Manipulation
-
-- Creating product information sections
-- Creating ingredient information sections
-- Adding headings
-- Adding labels and values
-- Clearing previous search results
+- Combine data from two external APIs in one interface
 
 ## Technologies
 
-- HTML5
-- CSS3
-- JavaScript
-- Open Beauty Facts API
-- ChEBI API
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="HTML">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="CSS">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40">
+  </a>
+</p>
 
-## Running the Project
+- [Open Beauty Facts](https://world.openbeautyfacts.org/)
+- [ChEBI](https://www.ebi.ac.uk/chebi/)
 
-1. Clone or download the repository.
-2. Open `index.html`.
-3. Enter a beauty product name.
-4. Select the search button.
-5. Review the product information and available chemical ingredient details.
-6. Open the browser developer tools and select the Console to view logged data.
+## How to Run
 
-## Purpose
+1. Clone the repository:
 
-This project was created while practicing JavaScript APIs, arrays, objects, asynchronous requests, and DOM manipulation.
+```bash
+git clone https://github.com/nilesleesmith/simply-get-beauty-product-ingredient-information.git
+```
 
-The focus is on using data from one API to create multiple searches in another API and combining the returned information in the browser.
+2. Open the project folder.
+
+3. Open `index.html` in a web browser.
+
+No additional packages or build steps are required.
+
+## Live Site
+
+Coming soon.
+
+## Screenshots
+
+### Desktop
+
+![Beauty Product Ingredient Information desktop view](./screenshots/simply-get-beauty-product-ingredient-information-desktop.png)
+
+### Tablet
+
+![Beauty Product Ingredient Information tablet view](./screenshots/simply-get-beauty-product-ingredient-information-tablet.png)
+
+### Mobile
+
+![Beauty Product Ingredient Information mobile view](./screenshots/simply-get-beauty-product-ingredient-information-mobile.png)
