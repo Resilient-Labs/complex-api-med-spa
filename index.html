@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<meta name="description" content="Enter your zip code to see today's UV index and get sun safety and aftercare tips.">
+    	<meta name="keywords" content="med spa, UV index, sunscreen, SPF, aftercare, skin care">
+
+		<title>Sun Safety & Aftercare Advisor</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<main>
+			<h1>Sun & Safety </h1>
+			<p>Enter your zip code to see today's UV index and how to protect your skin.</p>
+
+			<form id="zip-form">
+				<label for="zip">Zip code</label>
+				<input type="text" id="zip" inputmode="numeric" maxlength="5" placeholder="zip" required>
+				<button type="submit">Check UV</button>
+			</form>
+
+			<p id="message" class="message" aria-live="polite"></p>
+
+			<section id="result" class="result hidden">
+				<p id="place" class="place"></p>
+				<p id="uv-number" class="uv-number"></p>
+				<p id="uv-level" class="uv-level"></p>
+				<p id="uv-advice" class="uv-advice"></p>
+
+				<div class="aftercare">
+					<h2>Recent treatment?</h2>
+					<p id="aftercare-tip"></p>
+				</div>
+			</section>
+		</main>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

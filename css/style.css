@@ -1,0 +1,71 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("../assets/images/medpic.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 20px;
+}
+
+main {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  text-align: center;
+}
+
+.message {
+  margin-top: 10px;
+}
+
+.message.error {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+/******************************************
+/* RESULT
+/*******************************************/
+
+.result {
+  margin-top: 20px;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.uv-number {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.uv-level {
+  font-weight: bold;
+}
+
+/* for uv levels */
+.low       { color: green; }
+.moderate  { color: goldenrod; }
+.high      { color: orange; }
+.very-high { color: red; }
+.extreme   { color: purple; }
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
