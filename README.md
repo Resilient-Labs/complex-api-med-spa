@@ -53,18 +53,8 @@ No additional packages or build steps are required.
 
 ## Live Site
 
-Coming soon.
+https://nilesleesmith.github.io/simply-get-beauty-product-ingredient-information/
 
 ## Screenshots
 
-### Desktop
-
 ![Beauty Product Ingredient Information desktop view](./screenshots/simply-get-beauty-product-ingredient-information-desktop.png)
-
-### Tablet
-
-![Beauty Product Ingredient Information tablet view](./screenshots/simply-get-beauty-product-ingredient-information-tablet.png)
-
-### Mobile
-
-![Beauty Product Ingredient Information mobile view](./screenshots/simply-get-beauty-product-ingredient-information-mobile.png)
