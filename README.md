@@ -2,6 +2,7 @@
 
 A front-end web app for a med spa that chains two APIs. Enter a skincare product name, and the app finds the product on Open Beauty Facts, then uses its barcode to fetch safety information from the INCI API. Staff and clients can quickly check a product before using it.
 - Check out here: 
+ https://med-spa-git-answer-rc-09fb.vercel.app/
 
 - screenshots:
 ![landingpage](./img/landingPage.jpeg)
