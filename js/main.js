@@ -22,8 +22,9 @@ function lookUpFact(){
               fetch(url2,{
                     method:'GET',
                     headers:{
-                    'x-api-key': apiKey
-
+                        
+                        'x-api-key': 'YOUR_API_KEY'
+                        
                     }
                     })
                     .then ( res => res.json())
