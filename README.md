@@ -24,10 +24,7 @@ Docs:
 
  How can you run this project? 
 
- -Clone the Repo 
- -cd into the projec
- -To view, open the index.html file in your browser
- -Run the App
+ -Clone the Repo. cd into the project. To view, open the index.html file in your browser. Run the App
 
 
  Disclaimer: The information provided on this website is for general informational and education al purposes only. It is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or another qualified health provider with any questions you may have regarding a medical condition. Never disregard professional medical advice or delay in seeking it because of something you have read on this website. If you think you may have a medical emergency, call your doctor or 911 immediately. -https://pabau.com/templates/medical-disclaimer/
