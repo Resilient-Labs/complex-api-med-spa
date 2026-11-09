@@ -1,7 +1,5 @@
 # Desiree's MedSpa App
 
-### Goal: Build a simple front-end app that uses data returned from one api to make a request to another api to create something that would be beneficial to a Med Spa.
-
 This is a front-end application geared to helping visitors of a med-spa tell staff their skin concern and providing staff with information regarding the condition and FDA pulled information regarding potential products that can be used on the client. the information pulled from the FDA API (if available) includes the Brand, Purpose of the Produc, and Warnings associated with the product. 
 
 The two APIs used for this application are the Clinical Tables API endpoint: https://clinicaltables.nlm.nih.gov/api/conditions/v3/search
