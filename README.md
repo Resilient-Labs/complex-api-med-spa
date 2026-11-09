@@ -4,36 +4,39 @@ The Med Spa Holiday Promotions application is a front-end web application that a
 
 The application uses a Holiday Calendar API to retrieve holiday information and an Email Address API to handle the email portion of the promotion claim process.
 
+<img width="1781" height="903" alt="MedSpaScreenshot 2026-11-09 at 12 21 08 AM" src="https://github.com/user-attachments/assets/64078e16-fb76-497f-a463-4e8de64252ef" />
+
+
 ## Features
-Holiday Search: Enter a holiday to check for available promotions.
-Holiday Calendar API: Retrieve holiday information to determine which holidays are available.
-Promotion Lookup: Check whether the Med Spa is offering a special promotion for the selected holiday.
-Special Offers: Display available holiday promotions to users.
-Claim Your Promotion: Allow users to claim an available offer.
-Email Submission: Enter an email address to claim a promotion.
+Holiday Search: Enter a holiday to check for available promotions.\
+Holiday Calendar API: Retrieve holiday information to determine which holidays are available.\
+Promotion Lookup: Check whether the Med Spa is offering a special promotion for the selected holiday.\
+Special Offers: Display available holiday promotions to users.\
+Claim Your Promotion: Allow users to claim an available offer.\
+Email Submission: Enter an email address to claim a promotion.\
 Email Address API: Integrate email address functionality into the promotion claim process.
 
 ## Tech Stack
-Frontend: HTML, CSS, JavaScript
+Frontend: HTML, CSS, JavaScript\
 APIs: Holiday Calendar API, Email Address API
 
 ## What I Learned
-Working with multiple external APIs.
-Using data returned from one API to make a request to another API.
-Making asynchronous API requests using JavaScript.
-Retrieving and processing holiday information.
-Creating interactive forms to collect user input.
-Using conditional statements to determine whether promotions are available.
-Integrating email address functionality into an application.
+Working with multiple external APIs.\
+Using data returned from one API to make a request to another API.\
+Making asynchronous API requests using JavaScript.\
+Retrieving and processing holiday information.\
+Creating interactive forms to collect user input.\
+Using conditional statements to determine whether promotions are available.\
+Integrating email address functionality into an application.\
 Displaying dynamic content based on API responses.
 
 ## Installation
-Fork and clone the repository.
+Fork and clone the repository.\
 Navigate to the project directory.
 
 ## Usage
-Open the index.html file in your browser.
-Enter a holiday to check whether a promotion is available.
-View the promotion details if an offer is available.
-Select Claim Your Promotion.
+Open the index.html file in your browser.\
+Enter a holiday to check whether a promotion is available.\
+View the promotion details if an offer is available.\
+Select Claim Your Promotion.\
 Enter your email address to claim your offer!
