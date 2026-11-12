@@ -2,7 +2,8 @@
 
 A web application that takes a selected emoji, converts its name into search keywords, and finds matching book recommendations using the Open Library API.
 
----
+## Live Demo
+https://camerondcrawley.github.io/med-spa/
 
 ## Features
 
