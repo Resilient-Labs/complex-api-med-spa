@@ -4,6 +4,8 @@ A simple front-end web app for med spas and their clients. After treatments like
 
 ![Screenshot](./images/medSpaAppimg.png)
 
+[Try it Here](https://exbrto.github.io/MedSpaApp/)
+
 ## Why It's Useful
 
 Sun exposure after a treatment can cause irritation, dark spots, or poor healing, and it's one of the most common aftercare mistakes. Med spa staff can share this app during checkout or in aftercare instructions, so clients can plan around high-UV days instead of guessing.
