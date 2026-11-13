@@ -1,18 +1,36 @@
-README for Complex API #2
-Goal: Build a simple front-end app that uses data returned from one api to make a request to another api to create something that would be beneficial to a Med Spa.
+# Med Spa Product Checker
 
-Idea: Create a page that will take users input of a beauty product they use and let you know if you should stop using it before your appointment based on flagged ingredients
+Enter a beauty product and find out if you should stop using it before a med spa appointment.
 
-API's Used
-Beauty Facts API - https://world.openbeautyfacts.org/cgi/search.pl?search_terms=${product_query}&search_simple=1&json=1&page_size=1&fields=product_name,ingredients_text
+A small front-end exercise from the 100Devs bootcamp: it chains two APIs — the first finds the product's ingredients, the second explains the flagged one.
 
-- used to find ingredients in products
+## What it does
 
-Test Products -
-CeraVe Retinol Serum
-CeraVe SA Smoothing Cleanser
-CeraVe Moisturizing Cream
+- Takes a beauty product name and looks up its ingredients with the Open Beauty Facts API.
+- Checks the ingredients against a list of ingredients to pause before treatment: Retinol, Retinyl palmitate, Glycolic acid, Salicylic acid, Lactic acid, and Benzoyl peroxide.
+- If one is found, shows the product name, the flagged ingredient(s), and a short explanation of the first one from the Wikipedia API.
+- If nothing is found, it says so — either no flagged ingredients, no ingredient list yet, or the product could not be found.
 
-Wikipedia API - https://en.wikipedia.org/api/rest_v1/page/summary/${found_ingredients[0]}
+Try it with: CeraVe Retinol Serum, CeraVe SA Smoothing Cleanser, or CeraVe Moisturizing Cream.
 
-- used to give quick facts about the flagged ingredient for the users
+## Tech stack
+
+- HTML, CSS, JavaScript (no build step, no server)
+- Open Beauty Facts API — product and ingredient lookup
+- Wikipedia REST API — summary of the flagged ingredient
+
+## How to run it
+
+Open `index.html` in a browser, type a product name, and click **Find Ingredients**. No API key or install step is needed.
+
+## Project structure
+
+```
+index.html      - product input, button, and the results section
+css/style.css   - page styling
+js/main.js      - ingredient lookup, flagged-ingredient check, Wikipedia fetch
+```
+
+---
+
+Thay Brown — thaybrown22@gmail.com · https://thaythecoder.netlify.app · https://github.com/tbrown320 · https://www.linkedin.com/in/thaybrown
