@@ -1,0 +1,120 @@
+/* 
+=======================
+BORDER BOX HACK
+=======================
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*
+========================
+CLEARFIX HACK
+========================
+*/
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+body{
+    background: #FAF7F4;
+}
+
+.clear {
+	clear: both;
+}
+h1{
+    font-family: "Chango", Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0); 
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-bottom: 2.3rem;
+    padding-top: 3rem;
+    background: #f3dde1;
+}
+.pContainer{
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    width: 60%;
+    margin: 1rem auto;
+}
+.firstP{
+    font-family: "Montserrat",Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 2rem;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    color: rgba(0, 0, 0, 0.651);
+}
+.secondP{
+    font-family: "Montserrat",Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    color: rgba(0, 0, 0, 0.651);
+}
+.inputs{
+    font-size: 2rem;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    width: 80%;
+    margin: 1rem auto;
+}
+#submit{
+    font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+    border-radius: 0.5rem;
+    background:#806B79;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#submit:hover {
+  background-color: #B99569;
+}
+#zipCode, #submit{
+    font-size: 2rem;
+}
+.quality{
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    text-align: left;
+    border-radius: 0.8rem;
+    width: 60%;
+    margin: 1.5rem auto;
+    background: #DCD3E8;
+}
+#airQuality, #level, #recs{
+    font-size: 2.3rem;
+    margin: 0.8rem;
+    text-align: left;
+    color: black; 
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+img{
+    display: block;          
+    width: 100%;            
+    height: auto;
+}
+.imgContainer{
+    width: min(100%, 70rem); /* Sets a max width while staying responsive */
+    margin: 1.5rem auto; 
+}
+figcaption{
+    font-size: 2rem;
+}
