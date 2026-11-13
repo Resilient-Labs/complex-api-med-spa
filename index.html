@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Med Spa App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caacupe+One&family=Carter+One&family=Chango&family=Cookie&family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Honk:MORF@15&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Isometra&family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&family=Lilita+One&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oleo+Script+Swash+Caps:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Permanent+Marker&family=Petit+Formal+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Titan+One&family=Unkempt:wght@400;700&family=Zen+Dots&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/styles.css">
 
 </head>
 <body>
     <h1>Air Quality Check Before Treatment</h1>
-    <p class ="firstP">For all the sensitive skin clients, there's no limit to how cautious your office can be to prevent skin irritation from becoming a major concern and part of a client's experience.</p>
-    <p class="secondP">Check to view the daily air quality below to help determine if it's best to perform a treatment or give the option to reschedule instead.</p>
+    <section class = "pContainer">
+        <p class ="firstP">For all the sensitive skin clients, there's no limit to how cautious your office can be to prevent skin irritation from becoming a major concern and part of a client's experience.</p>
+        <p class="secondP">Check to view the daily air quality below to help determine if it's best to perform a treatment or give the option to reschedule instead.</p>
+    </section>
+    
     <section class="inputs">
         <input id = "zipCode" type = "text" placeholder = "enter your zipcode">
         <button id="submit">Submit</button>
@@ -21,7 +27,7 @@
     <h3 id= "long">Longitude: </h3> --> 
     <!-- We only used the above two elements as a way to test that we were grabbing the correct lat and long -->
     <section class="quality">
-        <h2 id= "airQuality">Today's air quality is: </h2>
+        <h2 id="airQuality">Today's air quality is: </h2>
         <h3 id="level">Air pollution level is: </h3>
         <h3 id="recs">Advice: </h3>
     </section>
