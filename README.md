@@ -2,8 +2,6 @@
 
 Enter a beauty product and find out if you should stop using it before a med spa appointment.
 
-A small front-end exercise from the 100Devs bootcamp: it chains two APIs — the first finds the product's ingredients, the second explains the flagged one.
-
 Live Link: https://tbrown320.github.io/complex-api-med-spa/
 
 ## What it does
