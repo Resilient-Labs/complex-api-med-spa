@@ -4,6 +4,8 @@ Enter a beauty product and find out if you should stop using it before a med spa
 
 Live Link: https://tbrown320.github.io/complex-api-med-spa/
 
+![Screenshot of page with ingredients](Screenshot.png)
+
 ## What it does
 
 - Takes a beauty product name and looks up its ingredients with the Open Beauty Facts API.
